@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-24T15:46:18 IST" name="Suite" finished-at="2022-07-24T15:46:25 IST" duration-ms="6525">
+    <groups>
+    </groups>
+    <test started-at="2022-07-24T15:46:18 IST" name="Test" finished-at="2022-07-24T15:46:25 IST" duration-ms="6525">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:tests.LoginTest@4bdeaabb]" started-at="2022-07-24T15:46:18 IST" name="openApplication" finished-at="2022-07-24T15:46:21 IST" duration-ms="2577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@4bdeaabb]" started-at="2022-07-24T15:46:21 IST" name="login" data-provider="getLoginData" finished-at="2022-07-24T15:46:25 IST" duration-ms="3876" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jatin260400@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[260400]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:tests.LoginTest@4bdeaabb]" started-at="2022-07-24T15:46:25 IST" name="closure" finished-at="2022-07-24T15:46:25 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
